@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../Button";
 import style from "./Form.module.scss";
 
-class Form extends React.Component {
+class Form extends React.Component<any, any> {
   render() {
     return (
       <form className={style.novaTarefa}>
